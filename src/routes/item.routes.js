@@ -3,6 +3,6 @@ import { getItems } from "../controllers/item.controller.js";
 
 const itemRouter = Router()
 
-itemRouter.get("/:categories/:itemId", getItems);
+itemRouter.get("/Perfumaria/:itemId", getItems);
 
 export default itemRouter;
