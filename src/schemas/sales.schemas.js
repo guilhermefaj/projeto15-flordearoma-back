@@ -3,7 +3,7 @@ import joi from "joi";
 export const saleSchema = joi.object({
     productsArray: joi.required(),
     total: joi.required(),
-    addres: joi.required(),
+    address: joi.required(),
     city: joi.required(),
     state: joi.required(),
     cep: joi.required(),
