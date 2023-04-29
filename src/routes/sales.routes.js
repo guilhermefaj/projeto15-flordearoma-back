@@ -8,6 +8,6 @@ const salesRouter = Router();
 
 salesRouter.use(authValidation);
 
-salesRouter.post("/sales", checkout);
+salesRouter.post("/sales", validateSchema(saleSchema), checkout);
 
 export default salesRouter;
